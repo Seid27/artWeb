@@ -1,0 +1,24 @@
+
+<header th:fragment="header" xmlns:th="http://www.w3.org/1999/xhtml">
+    <link th:href="@{resources/static/css/header.css}" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <div class="div-logo">
+        <div class="logo-img">
+<!--            <h1>logo</h1>-->
+            <img src="../static/images/articon.png" th:src="@{resources/static/images/articon.png}" />
+        </div>
+        <div class="logo-txt">
+            <h1>Pixel</h1>
+        </div>
+
+
+    </div>
+    <nav class="nav-header">
+        <ul class="nav-ul">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Learning</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+    </nav>
+</header>
