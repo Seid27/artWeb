@@ -1,9 +1,74 @@
-
-strong {
-    font-weight: 700;
-    background-color: yellow;
+.container{
+    position: absolute;
+    left: 90px;
+    top: 100px;
 }
 
-p {
-    font-family: sans-serif;
+.content-container{
+    position: relative;
+    float: left;
+    width:600px;
+    top:100px;
+}
+
+.img-container{
+    float: right;
+    width: 600px;
+
+}
+
+.page-title h1{
+    font-family: "Righteous";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 99px;
+    margin:0px;
+
+    color: #424242;
+}
+
+.page-desc p{
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.btn{
+    background-color: yellow;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    width: 166px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    background: #000000;
+    box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.ellipses{
+    background: linear-gradient(180deg, #FF5E43 0%, #FA982F 100%);
+    width: 485px;
+    height: 538px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.ellipses img{
+    position: relative;
+    align: center;
+    top:90px;
+    left:20px;
 }
