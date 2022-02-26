@@ -50,17 +50,17 @@ public class WebConfig implements WebMvcConfigurer, ApplicationContextAware {
         SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();
         templateResolver.setApplicationContext(applicationContext);
         templateResolver.setPrefix("/WEB-INF/views/");
+        templateResolver.setCacheable(false);
         templateResolver.setSuffix(".html");
         templateResolver.setTemplateMode(TemplateMode.HTML);
-        templateResolver.setCacheable(true);
         return templateResolver;
     }
 
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("WEB-INF/resources/static/**")
-                .addResourceLocations("WEB-INF/resources/static/");
+        registry.addResourceHandler("webApp/resources/static/**")
+                .addResourceLocations("webApp/resources/static/");
 
 //        registry.addResourceHandler(
 //                        "/images/**",

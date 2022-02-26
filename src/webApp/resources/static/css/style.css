@@ -1,20 +1,6 @@
-.container{
-    position: absolute;
-    left: 90px;
-    top: 100px;
-}
-
-.content-container{
+.main{
     position: relative;
-    float: left;
-    width:600px;
-    top:100px;
-}
-
-.img-container{
-    float: right;
-    width: 600px;
-
+    top: 88px;
 }
 
 .page-title h1{
@@ -58,6 +44,8 @@
     line-height: 36px;
 }
 
+
+
 .ellipses{
     background: linear-gradient(180deg, #FF5E43 0%, #FA982F 100%);
     width: 485px;
@@ -72,3 +60,4 @@
     top:90px;
     left:20px;
 }
+
