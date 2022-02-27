@@ -1,6 +1,5 @@
 .main{
     position: relative;
-    top: 88px;
 }
 
 .page-title h1{
@@ -10,7 +9,6 @@
     font-size: 80px;
     line-height: 99px;
     margin:0px;
-
     color: #424242;
 }
 
@@ -60,4 +58,48 @@
     top:90px;
     left:20px;
 }
+
+
+/* bottom page style */
+#bottom-page{
+    margin-top:60px;
+}
+
+#bottom-page h1{
+    margin:25px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    font-size: 72px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+
+}
+
+#bottom-page h2{
+    margin:10px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.25px;
+    color: #000000;
+}
+
+#bottom-page p{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.44px;
+    color: #000000;
+}
+
+#bottom-page .container .row .col{
+}
+
+
 

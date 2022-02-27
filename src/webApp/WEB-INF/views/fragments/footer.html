@@ -1,10 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<html  th:fragment="footer" xmlns:th="http://www.w3.org/1999/xhtml">
+    <link th:href="@{resources/static/css/footer.css}" rel="stylesheet" />
+    <body>
+        <div class="container-fluid" id="pg-footer" >
+            <div class="container">
+<!--                <div class="row">-->
+<!--                    <div class="col">-->
 
-</body>
+<!--                    </div>-->
+<!--                    <div class="col">-->
+<!--                        <img src="../static/images/articon.png" th:src="@{resources/static/images/articon.png}"-->
+<!--                             width="62" height="62" class="d-inline-block align-top" alt=""/>-->
+<!--                        <a href="#" id="navBrand-name">Art Bar</a>-->
+<!--                    </div>-->
+<!--                    <div class="col">-->
+
+<!--                    </div>-->
+<!--                </div>-->
+
+                <div class="row">
+                    <div class="col">
+                        <h3>Links</h3>
+                        <div class="container">
+                            <div class="row">
+                                <a href="#" >Home</a>
+                            </div>
+                            <div class="row">
+                                <a href="#" >Learning</a>
+                            </div>
+                            <div class="row">
+                                <a href="#" >Services</a>
+                            </div>
+                            <div class="row">
+                                <a href="#" >About Us</a>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="col">
+                        <h3>Call us</h3>
+                        <div class="container" id="call-us">
+                            <p style="background-color:black;">+01 7452 8876</p>
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="col">
+                        <h3>Follow Us</h3>
+                        <div class="container">
+                            <div class="row">
+
+                                <div class="container" id="follow-us">
+
+                                    <img src="../static/images/facebook-logo.png" th:src="@{resources/static/images/facebook-logo.png}"
+                                         width="24px" height="24px" alt=""/>
+                                    <img src="../static/images/instagram.png" th:src="@{resources/static/images/instagram.png}"
+                                         width="24px" height="24px" alt=""/>
+                                    <img src="../static/images/twitter.png" th:src="@{resources/static/images/twitter.png}"
+                                         width="24px" height="24px"  alt=""/>
+
+                                </div>
+<!--                                <div class="col" >-->
+<!--                                    <img src="../static/images/facebook-logo.png" th:src="@{resources/static/images/facebook-logo.png}"-->
+<!--                                         width="24px" height="24px" alt=""/>-->
+<!--                                    &lt;!&ndash;                                    <p>Hello</p>&ndash;&gt;-->
+<!--                                </div>-->
+<!--                                <div class="col">-->
+<!--                                    <img src="../static/images/instagram.png" th:src="@{resources/static/images/instagram.png}"-->
+<!--                                         width="24px" height="24px" alt=""/>-->
+<!--                                    &lt;!&ndash;                                    <p>Hello</p>&ndash;&gt;-->
+<!--                                </div>-->
+<!--                                <div class="col" style="background-color:yellow;">-->
+<!--                                    <img style="margin:0px" src="../static/images/twitter.png" th:src="@{resources/static/images/twitter.png}"-->
+<!--                                         width="24px" height="24px"  alt=""/>-->
+<!--                                    &lt;!&ndash;                                    <p>Hello</p>&ndash;&gt;-->
+<!--                                </div>-->
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col">
+                        <h3>Address</h3>
+                        <div class="container" id="footer-address">
+                            <p>224 60th St S</p>
+                            <p>Bristol, BR 543543 </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </body>
 </html>
