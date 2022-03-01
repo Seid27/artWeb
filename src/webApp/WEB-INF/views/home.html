@@ -4,12 +4,6 @@
     <head>
         <meta charset="UTF-8">
         <title>Home</title>
-        <link th:href="@{resources/static/css/style.css}" rel="stylesheet" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Righteous">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
 
     </head>
     <body>
@@ -55,6 +49,7 @@
             </div>
 
             <div th:insert="fragments/midsection.html :: midsection (${viewName})" ></div>
+
             <div class="container" id="bottom-page">
                 <h1>FAQ's</h1>
                 <div class="container">
@@ -112,13 +107,8 @@
                     </div>
                 </div>
             </div>
+
         </div>
 
-<!--        <div>-->
-<!--            <div class="container" style="background-color:yellow">-->
-<!--                <h1>This is a test div</h1>-->
-
-<!--            </div>-->
-<!--        </div>-->
     </body>
 </html>

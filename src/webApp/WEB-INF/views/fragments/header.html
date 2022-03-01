@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <body>
 
-        <div class="container" style="margin-bottom:125px;">
+        <div class="container" id="navBar">
             <!-- Navigation-->
             <nav class="navbar fixed-top navbar-expand-lg" style="background-color:white">
                 <a class="navbar-brand" href="#" id="navBrand">
@@ -17,7 +17,6 @@
                         <li class="nav-item active">
                             <a class="nav-link" th:href="@{/}">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <a th:href="@{defect-details}">
                         <li class="nav-item">
                             <a class="nav-link" th:href="@{learning}" href="#">Learning</a>
                         </li>
@@ -27,7 +26,6 @@
                         <li class="nav-item">
                             <a class="nav-link" th:href="@{aboutus}">About Us</a>
                         </li>
-
                     </ul>
                 </div>
             </nav>
