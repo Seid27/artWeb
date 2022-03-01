@@ -1,0 +1,27 @@
+#mid-section{
+    background-color:#000000;
+    height: auto;
+    width: 100%;
+    color:#FFFFFF;
+    padding: 30px;
+    align-items: center;
+}
+
+.container-fluid .row .col{
+    margin:10px;
+
+}
+
+.container-fluid .row .col p{
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 20px;
+}
+
+
+
+

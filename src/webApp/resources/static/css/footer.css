@@ -1,0 +1,36 @@
+#pg-footer{
+    padding:30px;
+    background-color:#000000;
+    color: #ffffff;
+
+}
+
+#follow-us{
+    display: inline;
+    padding:0px;
+    margin:0px;
+}
+
+#follow-us img{
+    margin:0px 10px 0px 0px;
+}
+
+#footer-address{
+    padding:0px;
+    margin:0px;
+}
+
+#footer-address p{
+    padding:0px;
+    margin:0px;
+}
+
+#call-us{
+    padding:0px;
+    margin:0px;
+}
+
+#call-us p{
+    padding:0px;
+    margin:0px;
+}
