@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{fragments/layout}">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning</title>
+    <link th:href="@{resources/static/css/style.css}" rel="stylesheet" />
+</head>
+<body>
+<div layout:fragment="content" class="main" >
+    <div class="container" id="topPage" >
+        <div class="row">
+            <div class="col align-self-center" id="siteDesc-col">
+                <div class="row">
+                    <div class="col">
+                        <div class="page-title">
+                            <h1>Learning</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" >
+                    <div class="col">
+                        <div class="page-desc">
+                            <p>The Art Bar offers relaxed, informal painting classes that are fun
+                                for the whole family. We have a variety of paintings that we teach
+                                using Acrylic paints. It's a place where you can let your creativity
+                                flow onto the canvas!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <button class="btn" type="button" >Classes</button>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="img-container">
+                    <div class="ellipses">
+                        <img src="../static/images/pg_images/undraw_learning.png" th:src="@{resources/static/images/pg_images/undraw_learning.png}" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div th:insert="fragments/midsection.html :: midsection (${viewName})" ></div>
+
+    <div class="container" id="bottom-page">
+
+        <h1>Painting Classes</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Private Parties</h2>
+                    <p> The Art Bar will be there to make it amazing. We do require a $50 deposit to hold your date.
+                        Prices vary depending on the painting you choose for your party.
+                        Outside beverages are not allowed, but you may bring your own food for the party.</p>
+                </div>
+                <div class="col">
+                    <h2>Art bar kids</h2>
+                    <p>See calendar for kids events</p>
+                    <p>Little Picasso's - Ages 5 to 12 yr. olds.</p>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h2>Open Paintings</h2>
+                    <p>Open painting is for anyone, you be the artist.
+                        The pricing differs based on the size of your canvas.
+                        Everything is still provided, including paints, brushes, and aprons.
+                        Facilitators will be there to offer limited instruction.
+                        They answer questions, and make suggestions, but do not provide traditional
+                        lessons during open painting time.
+                    </p>
+                    <p>See calendar for open painting days, and times.</p>
+                    <p>Times and days will vary.</p>
+                </div>
+                <div class="col">
+                    <h2>Painting with Pets</h2>
+                    <p>Bring In your fur babies and enjoy a day of painting.
+                        Please call to schedule  an appointment.</p>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h2>What is The Art Painting Party like?</h2>
+                    <p>The Art Bar Painting Party is a fun for all ages In an upbeat social setting,
+                        our instructors will guide you step by step, in recreating the nights featured painting.
+                        Event times vary, and we do recommend coming at least 20-30 minutes early to pick your seats,
+                        paint, and drinks. We offer your choice of beer, wine, soda, or water.</p>
+                </div>
+                <div class="col">
+                    <h2>What is The Art Painting Party like?</h2>
+                    <p>The Art Bar Painting Party is a fun for all ages In an upbeat social setting,
+                        our instructors will guide you step by step, in recreating the nights featured painting.
+                        Event times vary, and we do recommend coming at least 20-30 minutes early to pick your seats,
+                        paint, and drinks. We offer your choice of beer, wine, soda, or water.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--        <div>-->
+<!--            <div class="container" style="background-color:yellow">-->
+<!--                <h1>This is a test div</h1>-->
+
+<!--            </div>-->
+<!--        </div>-->
+</body>
+</html>

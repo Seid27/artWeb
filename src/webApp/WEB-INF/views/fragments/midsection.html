@@ -1,22 +1,46 @@
 <!DOCTYPE html>
-<html th:fragment="midsection"  xmlns:th="http://www.w3.org/1999/xhtml">
+<html th:fragment="midsection(view_name)"  xmlns:th="http://www.w3.org/1999/xhtml">
 
     <link th:href="@{resources/static/css/midsection.css}" rel="stylesheet" />
+
     <body>
-        <div class="container-fluid">
+        <div class="container-fluid" th:if="${view_name}== 'home'">
             <div class="container">
                 <div class="row" >
                     <div class="col" >
-                        <img src="../static/images/people_img_1.png" th:src="@{resources/static/images/people_img_1.png}" />
+                        <img src="../static/images/home_img/people_img_1.png" th:src="@{resources/static/images/home_img/people_img_1.png}" />
+<!--                        <p th:text="${view_name}"></p>-->
                         <p>"Instruction was clear and inspiring!! I had a blast! Will be going back again and again."—Kim G.</p>
                     </div>
 
                     <div class="col" >
-                        <img src="../static/images/people_img_2.png" th:src="@{resources/static/images/people_img_2.png}" />
+                        <img src="../static/images/home_img/people_img_2.png" th:src="@{resources/static/images/home_img/people_img_2.png}" />
                         <p>"Instruction was clear and inspiring!! I had a blast! Will be going back again and again."—Kim G.</p>
                     </div>
                     <div class="col" >
-                        <img src="../static/images/people_img_3.png" th:src="@{resources/static/images/people_img_3.png}" />
+                        <img src="../static/images/home_img/people_img_3.png" th:src="@{resources/static/images/home_img/people_img_3.png}" />
+                        <p>"Instruction was clear and inspiring!! I had a blast! Will be going back again and again."—Kim G.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid" th:if="${view_name}== 'learning_pg'">
+            <div class="container">
+                <div class="row" >
+                    <div class="col" >
+                        <img src="../static/images/learning_img/learning_image_1.png" th:src="@{resources/static/images/learning_img/learning_image_1.png}" />
+
+                        <p>"Instruction was clear and inspiring!! I had a blast! Will be going back again and again."—Kim G.</p>
+                    </div>
+
+                    <div class="col" >
+                        <img src="../static/images/learning_img/learning_image_2.png" th:src="@{resources/static/images/learning_img/learning_image_2.png}" />
+                        <p>"Instruction was clear and inspiring!! I had a blast! Will be going back again and again."—Kim G.</p>
+                    </div>
+                    <div class="col" >
+                        <img src="../static/images/learning_img/learning_image_3.png" th:src="@{resources/static/images/learning_img/learning_image_3.png}" />
                         <p>"Instruction was clear and inspiring!! I had a blast! Will be going back again and again."—Kim G.</p>
 
                     </div>
@@ -26,5 +50,53 @@
 
         </div>
 
+        <div class="container-fluid" th:if="${view_name}== 'services_pg'">
+            <div class="container">
+                <div class="row" >
+                    <div class="col" >
+                        <img src="../static/images/services_img/services_image_1.png" th:src="@{resources/static/images/services_img/services_image_1.png}" />
+
+                        <p>"Instruction was clear and inspiring!! I had a blast! Will be going back again and again."—Kim G.</p>
+                    </div>
+
+                    <div class="col" >
+                        <img src="../static/images/services_img/services_image_2.png" th:src="@{resources/static/images/services_img/services_image_2.png}" />
+                        <p>"Instruction was clear and inspiring!! I had a blast! Will be going back again and again."—Kim G.</p>
+                    </div>
+                    <div class="col" >
+                        <img src="../static/images/services_img/services_image_3.png" th:src="@{resources/static/images/services_img/services_image_3.png}" />
+                        <p>"Instruction was clear and inspiring!! I had a blast! Will be going back again and again."—Kim G.</p>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="container-fluid" th:if="${view_name}== 'aboutUs'">
+            <div class="container">
+                <div class="row" >
+                    <div class="col" >
+                        <img src="../static/images/aboutUs_img/creativity_aboutUs.png" th:src="@{resources/static/images/aboutUs_img/creativity_aboutUs.png}" />
+
+                        <p>"Instruction was clear and inspiring!! I had a blast! Will be going back again and again."—Kim G.</p>
+                    </div>
+
+                    <div class="col" >
+                        <img src="../static/images/aboutUs_img/inspiration_aboutUs.png" th:src="@{resources/static/images/aboutUs_img/inspiration_aboutUs.png}" />
+                        <p>"Instruction was clear and inspiring!! I had a blast! Will be going back again and again."—Kim G.</p>
+                    </div>
+                    <div class="col" >
+                        <img src="../static/images/aboutUs_img/fun_aboutUs.png" th:src="@{resources/static/images/aboutUs_img/fun_aboutUs.png}" />
+                        <p>"Instruction was clear and inspiring!! I had a blast! Will be going back again and again."—Kim G.</p>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
     </body>
 </html>

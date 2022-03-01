@@ -20,7 +20,7 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="page-title">
-                                        <h1>ART BAR</h1>
+                                        <h1>Art Bar</h1>
                                     </div>
                                 </div>
                             </div>
@@ -47,16 +47,14 @@
                     <div>
                         <div class="img-container">
                             <div class="ellipses">
-                                <img src="../static/images/art_home.png" th:src="@{resources/static/images/art_home.png}" />
+                                <img src="../static/images/pg_images/undraw_home.png" th:src="@{resources/static/images/pg_images/undraw_home.png}" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div th:insert="fragments/midsection.html :: midsection" >
-
-            </div>
+            <div th:insert="fragments/midsection.html :: midsection (${viewName})" ></div>
             <div class="container" id="bottom-page">
                 <h1>FAQ's</h1>
                 <div class="container">
@@ -108,7 +106,7 @@
                             <h2>What is The Art Painting Party like?</h2>
                             <p>The Art Bar Painting Party is a fun for all ages In an upbeat social setting,
                                 our instructors will guide you step by step, in recreating the nights featured painting.
-                                Event times vary and we do recommend coming at least 20-30 minutes early to pick your seats,
+                                Event times vary, and we do recommend coming at least 20-30 minutes early to pick your seats,
                                 paint, and drinks. We offer your choice of beer, wine, soda, or water.</p>
                         </div>
                     </div>

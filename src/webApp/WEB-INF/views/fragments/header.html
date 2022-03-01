@@ -15,16 +15,17 @@
                 <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" th:href="@{/}">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <a th:href="@{defect-details}">
+                        <li class="nav-item">
+                            <a class="nav-link" th:href="@{learning}" href="#">Learning</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Learning</a>
+                            <a class="nav-link" th:href="@{services}">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" th:href="@{aboutus}">About Us</a>
                         </li>
 
                     </ul>

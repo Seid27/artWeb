@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{fragments/layout}">
+<head>
+    <meta charset="UTF-8">
+    <link th:href="@{resources/static/css/style.css}" rel="stylesheet" />
+    <title>Services</title>
+</head>
+    <body>
+        <div layout:fragment="content" class="main" >
+            <div class="container" id="topPage" >
+                <div class="row">
+                    <div class="col align-self-center" id="siteDesc-col">
+                        <div class="row">
+                            <div class="col">
+                                <div class="page-title">
+                                    <h1>Services</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row" >
+                            <div class="col">
+                                <div class="page-desc">
+                                    <p>The Art Bar offers relaxed, informal painting classes that are fun
+                                        for the whole family. We have a variety of paintings that we teach
+                                        using Acrylic paints. It's a place where you can let your creativity
+                                        flow onto the canvas!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn" type="button" >Products</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="img-container">
+                            <div class="ellipses">
+                                <img src="../static/images/pg_images/undraw_services.png" th:src="@{resources/static/images/pg_images/undraw_services.png}" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div th:insert="fragments/midsection.html :: midsection (${viewName})"></div>
+
+            <div class="container" id="bottom-page">
+                <h1>PRODUCTS</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h2>001A $100.00 GIFT CARD</h2>
+                            <p> $100.00 GIFT CARD</p>
+                            <p> $100.00</p>
+                        </div>
+                        <div class="col">
+                            <h2>001A $100.00 GIFT CARD</h2>
+                            <p>$100.00 GIFT CARD</p>
+                            <p>$100.00</p>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <h2>001C $20.00 GIFT CARD</h2>
+                            <p>$20.00 GIFT CARD</p>
+                            <p>$20.00</p>
+                        </div>
+                        <div class="col">
+                            <h2>001D $10.00 GIFT CARD</h2>
+                            <p>$10.00 GIFT CARD</p>
+                            <p>$10.00</p>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <h2>001C $20.00 GIFT CARD</h2>
+                            <p>$20.00 GIFT CARD</p>
+                            <p>$20.00</p>
+                        </div>
+                        <div class="col">
+                            <h2>001D $10.00 GIFT CARD</h2>
+                            <p>$10.00 GIFT CARD</p>
+                            <p>$10.00</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h2>001C $20.00 GIFT CARD</h2>
+                            <p>$20.00 GIFT CARD</p>
+                            <p>$20.00</p>
+                        </div>
+                        <div class="col">
+                            <h2>001D $10.00 GIFT CARD</h2>
+                            <p>$20.00 GIFT CARD</p>
+                            <p>$20.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--        <div>-->
+        <!--            <div class="container" style="background-color:yellow">-->
+        <!--                <h1>This is a test div</h1>-->
+
+        <!--            </div>-->
+        <!--        </div>-->
+    </body>
+</html>

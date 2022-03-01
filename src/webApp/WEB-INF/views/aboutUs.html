@@ -1,10 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{fragments/layout}">
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>About us</title>
+    <link th:href="@{resources/static/css/style.css}" rel="stylesheet" />
 </head>
-<body>
+    <body>
+        <div layout:fragment="content" class="main" >
+            <div class="container" id="topPage" >
+                <div class="row">
+                    <div class="col align-self-center" id="siteDesc-col">
+                        <div class="row">
+                            <div class="col">
+                                <div class="page-title">
+                                    <h1>About us</h1>
+                                </div>
+                            </div>
+                        </div>
 
-</body>
+                        <div class="row" >
+                            <div class="col">
+                                <div class="page-desc">
+                                    <p>The Art Bar offers relaxed, informal painting classes that are fun
+                                        for the whole family. We have a variety of paintings that we teach
+                                        using Acrylic paints. It's a place where you can let your creativity
+                                        flow onto the canvas!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn" type="button" >Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="img-container">
+                            <div class="ellipses">
+                                <img src="../static/images/pg_images/undraw_aboutUs.png" th:src="@{resources/static/images/pg_images/undraw_aboutUs.png}" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div th:insert="fragments/midsection.html :: midsection (${viewName})"></div>
+
+            <div class="container" id="bottom-page">
+                <h1>Instructors</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h2>What is The Art Painting Party like?</h2>
+                            <p> The Art Bar Painting Party is a fun for all ages In an upbeat social setting,
+                                our instructors will guide you step by step, in recreating the nights featured painting.
+                                Event times vary, and we do recommend coming at least 20-30 minutes early to pick your seats,
+                                paint, and drinks. We offer your choice of beer, wine, soda, or water.</p>
+                        </div>
+                        <div class="col">
+                            <h2>What is The Art Painting Party like?</h2>
+                            <p>The Art Bar Painting Party is a fun for all ages In an upbeat social setting,
+                                our instructors will guide you step by step, in recreating the nights featured painting.
+                                Event times vary, and we do recommend coming at least 20-30 minutes early to pick your seats,
+                                paint, and drinks. We offer your choice of beer, wine, soda, or water.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <h2>What is The Art Painting Party like?</h2>
+                            <p>The Art Bar Painting Party is a fun for all ages In an upbeat social setting,
+                                our instructors will guide you step by step, in recreating the nights featured painting.
+                                Event times vary and we do recommend coming at least 20-30 minutes early to pick your seats,
+                                paint, and drinks. We offer your choice of beer, wine, soda, or water.</p>
+                        </div>
+                        <div class="col">
+                            <h2>What is The Art Painting Party like?</h2>
+                            <p>The Art Bar Painting Party is a fun for all ages In an upbeat social setting,
+                                our instructors will guide you step by step, in recreating the nights featured painting.
+                                Event times vary and we do recommend coming at least 20-30 minutes early to pick your seats,
+                                paint, and drinks. We offer your choice of beer, wine, soda, or water.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <h2>What is The Art Painting Party like?</h2>
+                            <p>The Art Bar Painting Party is a fun for all ages In an upbeat social setting,
+                                our instructors will guide you step by step, in recreating the nights featured painting.
+                                Event times vary and we do recommend coming at least 20-30 minutes early to pick your seats,
+                                paint, and drinks. We offer your choice of beer, wine, soda, or water.</p>
+                        </div>
+                        <div class="col">
+                            <h2>What is The Art Painting Party like?</h2>
+                            <p>The Art Bar Painting Party is a fun for all ages In an upbeat social setting,
+                                our instructors will guide you step by step, in recreating the nights featured painting.
+                                Event times vary and we do recommend coming at least 20-30 minutes early to pick your seats,
+                                paint, and drinks. We offer your choice of beer, wine, soda, or water.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
