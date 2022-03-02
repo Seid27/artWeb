@@ -38,9 +38,12 @@
                     </div>
 
                     <div>
-                        <div class="img-container">
+                        <div class="container">
                             <div class="ellipses">
-                                <img src="../static/images/pg_images/undraw_services.png" th:src="@{resources/static/images/pg_images/undraw_services.png}" />
+
+                                <div class="container" id="img-container">
+                                    <img src="../static/images/pg_images/undraw_services.png" th:src="@{resources/static/images/pg_images/undraw_services.png}" />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -50,7 +53,7 @@
             <div th:insert="fragments/midsection.html :: midsection (${viewName})"></div>
 
             <div class="container" id="bottom-page">
-                <h1>PRODUCTS</h1>
+                <h1>Products</h1>
                 <div class="container">
                     <div class="row">
                         <div class="col">

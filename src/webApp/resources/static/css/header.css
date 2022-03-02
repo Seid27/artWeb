@@ -1,18 +1,26 @@
 #navBar{
     margin-bottom:88px;
 }
-nav a {
-    font-family: "Poppins";
-    font-style: normal;
-    color: #000000;
-}
+
 
 #navbarNav ul li a{
-
     font-weight: normal;
     font-size: 18px;
     line-height: 27px;
+}
 
+#navbarNav ul li a:hover{
+    color:#F96800;
+}
+
+.nav-item active{
+    background-color:yellow;
+    color:#F96800;
+}
+
+nav a {
+    font-style: normal;
+    color: #000000;
 }
 
 #navBrand-name{

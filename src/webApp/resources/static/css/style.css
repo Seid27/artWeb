@@ -1,34 +1,37 @@
+/*fonts*/
+a{
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+}
+
 
 .main{
     position: relative;
     background-color:#FEFEFE;
-
 }
 
 .page-title h1{
-    font-family: "Righteous";
+    font-family: 'Righteous', cursive;
     font-style: normal;
-    font-weight: normal;
-    font-size: 80px;
-    line-height: 99px;
-    margin:0px;
+    font-size:60px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom:10px;
     color: #424242;
 }
 
 .page-desc p{
-
-    font-family: "Roboto";
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 30px;
     color: #000000;
 }
 
 .btn{
-    background-color: yellow;
     border: none;
-    color: white;
+    color: #ffffff;
     padding: 12px 16px;
     width: 166px;
     height: 60px;
@@ -36,13 +39,13 @@
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
-    background: #000000;
+    background: #F96800;
     box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
-    font-family: Poppins;
+
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 36px;
+    font-weight: 600;
+    line-height: 1.5;
 }
 
 
@@ -52,14 +55,18 @@
     width: 485px;
     height: 538px;
     border-radius: 50%;
-    margin: auto;
+    display: flex;
+    justify-content:
+    center; align-items:
+    center;
+
 }
 
-.ellipses img{
-    position: relative;
-    align: center;
-    top:90px;
-    left:20px;
+#img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
@@ -69,36 +76,43 @@
 }
 
 #bottom-page h1{
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
-    font-size: 72px;
-    line-height: 64px;
+    font-size: 28px;
+    font-weight:400;
+    line-height: 1.5;
     text-align: center;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
     padding:30px;
 
 }
 
 #bottom-page h2{
-    margin:10px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 400;
     font-style: normal;
-    font-weight: 500;
-    font-size: 34px;
-    line-height: 40px;
-    letter-spacing: 0.25px;
     color: #000000;
 }
 
 #bottom-page p{
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    line-height: 1.8;
+    font-weight: 400;
     font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 28px;
     letter-spacing: 0.44px;
     color: #000000;
 }
+
+#bottom-page .container .card{
+    background-color:yellow;
+    width:150px;
+
+}
+
+
+
+
 
 

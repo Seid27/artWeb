@@ -1,9 +1,31 @@
 #pg-footer{
     padding:30px;
     background-color:#000000;
-    color: #ffffff;
+}
+
+#pg-footer h2, a{
+    font-family: 'Nunito Sans', sans-serif;
+    line-height:1.8;
+    font-weight: 400;
+    font-style: normal;
+    padding:0px;
+    margin:0px;
 
 }
+
+#pg-footer h2{
+    color: #ffffff;
+    font-size: 16px;
+}
+#pg-footer a{
+    font-size: 14px;
+    color:#7c7c7c;
+    text-decoration: none;
+}
+#pg-footer a:hover{
+    color:#F96800;
+}
+
 
 #follow-us{
     display: inline;
@@ -15,12 +37,17 @@
     margin:0px 10px 0px 0px;
 }
 
+#follow-us a{
+    text-decoration: none;
+}
+
 #footer-address{
     padding:0px;
     margin:0px;
 }
 
 #footer-address p{
+    color:#7c7c7c;
     padding:0px;
     margin:0px;
 }
@@ -31,6 +58,7 @@
 }
 
 #call-us p{
+    color:#7c7c7c;
     padding:0px;
     margin:0px;
 }
